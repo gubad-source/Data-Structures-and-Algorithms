@@ -1,14 +1,16 @@
+n=int(input('Enter a number : '));
+
 def fib(n):
-    a=0
-    b=1
+    first=0
+    second=1
     if(n==1):
-      print(a)
+      print(first)
     else:
-        for i in range(2,n):
-         c=a+b
-         a=b
-         b=c
-         print(c)
+        for i in range(1,n):
+         total=first+second
+         first=second
+         second=total
+         print(total)
        
 
-fib(7)
+fib(n)
