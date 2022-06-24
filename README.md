@@ -1,2 +1,4 @@
 # Algorithms
 # Fibonacci
+# Armstrong
+# Palindrome
