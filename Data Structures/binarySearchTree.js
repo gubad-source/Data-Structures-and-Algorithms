@@ -25,7 +25,7 @@ class BinarySearchTree {
   }
 
   isEmpty() {
-    return this.value === null;
+    return this.root === null;
   }
 
   insert(value) {
@@ -38,13 +38,13 @@ class BinarySearchTree {
   }
   insertNode(root, node) {
     if (root.value > node.value) {
-      if (root.left == null) {
+      if (root.left === null) {
         root.left = node;
       } else {
         this.insertNode(root.left, node);
       }
     } else {
-      if (root.right == null) {
+      if (root.right === null) {
         root.right = node;
       } else {
         this.insertNode(root.right, node);
@@ -55,4 +55,6 @@ class BinarySearchTree {
 
 const binary = new BinarySearchTree();
 console.log(binary.isEmpty());
-console.log(binary.search(66));
+binary.insert(66);
+console.log(binary.search(binary.root, 66));
+console.log(binary.search(binary.root, 77));
