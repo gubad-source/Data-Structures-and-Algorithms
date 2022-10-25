@@ -51,6 +51,59 @@ class BinarySearchTree {
       }
     }
   }
+
+  min(root) {
+    if (root.left) {
+      this.min(root.left);
+    } else {
+      return root.value;
+    }
+  }
+  max(root) {
+    if (root.right) {
+      this.max(root.right);
+    } else {
+      return root.value;
+    }
+  }
+  levelOrder() {
+    let queue = [];
+    queue.push(this.root);
+    while (queue.length) {
+      var curr = queue.shift();
+      console.log(curr.value);
+      if (curr.right) {
+        queue.push(curr.right);
+      }
+      if (curr.left) {
+        queue.push(curr.left);
+      }
+    }
+  }
+
+  preOrder(root) {
+    if (root) {
+      console.log(root.value);
+      this.preOrder(root.left);
+      this.preOrder(root.right);
+    }
+  }
+
+  inOrder(root) {
+    if (root) {
+      this.inOrder(root.left);
+      console.log(root.value);
+      this.inOrder(root.right);
+    }
+  }
+
+  postOrder(root) {
+    if (root) {
+      this.postOrder(root.left);
+      this.postOrder(root.right);
+      console.log(root.value);
+    }
+  }
 }
 
 const binary = new BinarySearchTree();
