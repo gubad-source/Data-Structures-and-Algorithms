@@ -12,3 +12,17 @@ C:\Users\qubad\Desktop\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutati
 C:\Users\qubad\Desktop\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.dll
 C:\Users\qubad\Desktop\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.pdb
 C:\Users\qubad\Desktop\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.genruntimeconfig.cache
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.exe
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.deps.json
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.runtimeconfig.json
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.runtimeconfig.dev.json
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.dll
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\bin\Debug\netcoreapp3.1\Permutation.pdb
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.csproj.AssemblyReference.cache
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.AssemblyInfoInputs.cache
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.AssemblyInfo.cs
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.csproj.CoreCompileInputs.cache
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.dll
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.pdb
+C:\Users\qubad\Desktop\Data-Structures-and-Algorithms\Permutation\Permutation\obj\Debug\netcoreapp3.1\Permutation.genruntimeconfig.cache

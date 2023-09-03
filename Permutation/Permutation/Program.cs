@@ -1,6 +1,7 @@
 ﻿// C# program to print all
 // permutations of a given string.
 using System;
+using System.Collections.Generic;
 
 class GFG
 {
@@ -13,12 +14,17 @@ class GFG
     */
     private static void permute(String str, int l, int r)
     {
+        HashSet<int> hash = new HashSet<int>();
         if (l == r)
             Console.WriteLine(str);
         else
         {
             for (int i = l; i <= r; i++)
             {
+                if (hash.Contains(str[i]))
+                    continue;
+
+                hash.Add(str[i]);
                 str = swap(str, l, i);
                 permute(str, l + 1, r);
                 str = swap(str, l, i);
@@ -47,7 +53,7 @@ class GFG
     // Driver Code
     public static void Main()
     {
-        String str = "ABC";
+        String str = "AAA";
         int n = str.Length;
         permute(str, 0, n - 1);
     }
