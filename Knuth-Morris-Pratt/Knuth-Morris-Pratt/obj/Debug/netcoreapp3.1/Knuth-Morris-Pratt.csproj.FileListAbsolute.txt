@@ -1,0 +1,14 @@
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.exe
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.deps.json
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.runtimeconfig.json
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.runtimeconfig.dev.json
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.dll
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\bin\Debug\netcoreapp3.1\Knuth-Morris-Pratt.pdb
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.csproj.AssemblyReference.cache
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.AssemblyInfoInputs.cache
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.AssemblyInfo.cs
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.csproj.CoreCompileInputs.cache
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.dll
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.pdb
+C:\Users\qubad\Desktop\Knuth-Morris-Pratt\Knuth-Morris-Pratt\obj\Debug\netcoreapp3.1\Knuth-Morris-Pratt.genruntimeconfig.cache

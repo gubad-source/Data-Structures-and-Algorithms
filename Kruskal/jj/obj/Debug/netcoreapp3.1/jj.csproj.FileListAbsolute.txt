@@ -1,0 +1,14 @@
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.exe
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.deps.json
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.runtimeconfig.json
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.runtimeconfig.dev.json
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.dll
+C:\Users\qubad\Desktop\jj\jj\bin\Debug\netcoreapp3.1\jj.pdb
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.csproj.AssemblyReference.cache
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.AssemblyInfoInputs.cache
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.AssemblyInfo.cs
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.csproj.CoreCompileInputs.cache
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.dll
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.pdb
+C:\Users\qubad\Desktop\jj\jj\obj\Debug\netcoreapp3.1\jj.genruntimeconfig.cache
