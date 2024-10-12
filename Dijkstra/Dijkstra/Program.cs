@@ -87,7 +87,7 @@ namespace Dijkstra
                         // to v, and total weight of path
                         // from src to v through u is smaller
                         // than current value of dist[v]
-                        if (!sptSet[v] && graph[u, v] != 0
+                        if (sptSet[v]==false && graph[u, v] != 0
                             && dist[u] != int.MaxValue
                             && dist[u] + graph[u, v] < dist[v])
                             dist[v] = dist[u] + graph[u, v];

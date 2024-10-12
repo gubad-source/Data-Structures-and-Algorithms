@@ -66,6 +66,34 @@ class BinarySearchTree {
       return root.value;
     }
   }
+  delete(value) {
+    this.root = this.deleteNode(this.root, value);
+  }
+  deleteNode(root, value) {
+    if (root === null) {
+      return root;
+    }
+    if (value < root.value) {
+      root.left = this.deleteNode(root.left, value);
+    } else if (value > root.value) {
+      root.right = this.deleteNode(root.right, value);
+    } else {
+      // if it does not have both left and right child
+      if (!root.left && !root.right) {
+        return null;
+      }
+      // if it does not have left or right child
+      if (!root.left) {
+        return root.right;
+      } else if (!root.right) {
+        return root.left;
+      }
+      // if it does have both left and right child
+      root.value = this.min(root.right);
+      root.right = this.deleteNode(root.right, root.value);
+    }
+    return root;
+  }
   levelOrder() {
     let queue = [];
     queue.push(this.root);
@@ -107,7 +135,15 @@ class BinarySearchTree {
 }
 
 const binary = new BinarySearchTree();
-console.log(binary.isEmpty());
-binary.insert(66);
-console.log(binary.search(binary.root, 66));
-console.log(binary.search(binary.root, 77));
+// console.log(binary.isEmpty());
+// binary.insert(66);
+// console.log(binary.search(binary.root, 66));
+// console.log(binary.search(binary.root, 77));
+binary.insert(10);
+binary.insert(5);
+binary.insert(15);
+binary.insert(3);
+binary.levelOrder();
+
+binary.delete(10);
+binary.levelOrder();
