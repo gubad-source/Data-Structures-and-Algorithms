@@ -9,10 +9,10 @@ class Graph {
   }
   addEdges(vertex1, vertex2) {
     if (!this.adjencyList[vertex1]) {
-      this.adjencyList[vertex1];
+      this.addVertex(vertex1);
     }
     if (!this.adjencyList[vertex2]) {
-      this.adjencyList[vertex2];
+      this.addVertex(vertex2);
     }
     this.adjencyList[vertex1].add(vertex2);
     this.adjencyList[vertex2].add(vertex1);
@@ -59,3 +59,9 @@ graph.removeVertex("C");
 graph.removeVertex("B");
 
 graph.display();
+
+// adjacentList = {
+//   A: ["B"],
+//   B: ["A", "C"],
+//   C: ["B"],
+// };
