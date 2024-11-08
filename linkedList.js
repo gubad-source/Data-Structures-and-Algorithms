@@ -55,15 +55,53 @@ class LinkedList {
     }
     this.size++;
   }
+  insert(value, index) {
+    if (index < 0 || index > this.size) {
+      return;
+    }
+    if (index === 0) {
+      this.prepend(value);
+    } else {
+      const node = new Node(value);
+      let prev = this.head;
+      for (let i = 0; i < index - 1; i++) {
+        prev = prev.next;
+      }
+      node.next = prev.next;
+      prev.next = node;
+      this.size++;
+    }
+  }
+  removeFrom(index) {
+    if (index < 0 || index >= this.size) {
+      return null;
+    }
+    let removeNode;
+    if (index === 0) {
+      removeNode = this.head;
+      this.head = this.head.next;
+    } else {
+      let prev = this.head;
+      for (let i = 0; i < index - 1; i++) {
+        prev = prev.next;
+      }
+      removeNode = prev.next;
+      prev.next = removeNode.next;
+    }
+    this.size--;
+    return removeNode.value;
+  }
 }
 
 const list = new LinkedList();
 console.log(list.isEmpty());
 
-list.append(20);
-list.append(40);
 list.print();
-console.log(list.getSize());
-console.log(list.isEmpty());
-list.prepend(66);
+list.insert(10, 0);
+list.insert(20, 0);
+list.insert(30, 1);
+list.insert(40, 2);
+console.log(list.removeFrom(10));
+console.log(list.removeFrom(0));
+console.log(list.removeFrom(1));
 list.print();
