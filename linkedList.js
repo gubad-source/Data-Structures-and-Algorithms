@@ -113,6 +113,32 @@ class LinkedList {
       return null;
     }
   }
+  search(value) {
+    if (this.isEmpty()) {
+      return -1;
+    }
+    let i = 0;
+    let curr = this.head;
+    while (curr) {
+      if (curr.value === value) {
+        return i;
+      }
+      curr = curr.next;
+      i++;
+    }
+    return -1;
+  }
+  reverse() {
+    let prev = null;
+    let curr = this.head;
+    while (curr) {
+      let next = curr.next;
+      curr.next = prev;
+      prev = curr;
+      curr = next;
+    }
+    this.head = prev;
+  }
 }
 
 const list = new LinkedList();
@@ -124,8 +150,13 @@ list.insert(20, 0);
 list.insert(30, 1);
 list.insert(40, 2);
 
-console.log(list.removeValue(20));
-console.log(list.removeValue(40));
-console.log(list.removeValue(60));
+// console.log(list.removeValue(20));
+// console.log(list.removeValue(40));
+// console.log(list.removeValue(60));
 
+console.log(list.search(20));
+console.log(list.search(70));
+
+list.print();
+list.reverse();
 list.print();
