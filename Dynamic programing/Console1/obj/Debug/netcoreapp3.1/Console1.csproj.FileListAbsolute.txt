@@ -1,0 +1,14 @@
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.exe
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.deps.json
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.runtimeconfig.json
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.runtimeconfig.dev.json
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.dll
+C:\Users\qubad\Desktop\Console1\Console1\bin\Debug\netcoreapp3.1\Console1.pdb
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.csproj.AssemblyReference.cache
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.AssemblyInfoInputs.cache
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.AssemblyInfo.cs
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.csproj.CoreCompileInputs.cache
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.dll
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.pdb
+C:\Users\qubad\Desktop\Console1\Console1\obj\Debug\netcoreapp3.1\Console1.genruntimeconfig.cache
